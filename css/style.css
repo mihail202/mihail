@@ -1,0 +1,186 @@
+html,
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  color: #845C40;
+  background-color: #f8efe6;
+}
+div.logo {
+  position: absolute;
+  top: 10px;
+  left: 1700px;
+  width: 150px;
+  height: 150px;
+  margin: 0;  
+}
+nav.main-menu ul{
+  display:flex;
+  justify-content: center;
+  margin: 0;
+  margin-left: 0px;
+  padding: 10px;
+  list-style: none;
+  color:black;
+  
+  
+}
+.about-us{
+  background-color: #fcf6f0;
+}
+
+.main-menu
+{
+  display:flex;
+background-color: #F3CDB5;
+}
+.main-menu li{
+  display: inline-block;
+  margin-right: 1em;
+}
+.main-menu a{
+  
+  color: #845C40;
+}
+nav.secondary-menu ul{
+  margin: 50px;
+  margin-left: 130px;
+  padding: 0px;
+  list-style: none;
+}
+.seondary-menu li{  
+
+display: inline-block;
+  margin-right: 1em;
+}
+div.secondary li {
+display: flex;
+display: inline-block;
+}
+div.photo {
+margin: 10px;
+background-color: rgb(250, 118, 29);
+}
+.secondary  {
+  display: flex;
+  justify-content: center;
+  background-color: #f7bfa5;
+}
+.img-one {
+  margin: 10px;
+  width: 180px;
+}
+.img-two{
+  margin: 10px;
+}
+.img-three{
+  margin: 10px;
+}
+.img-four {
+  margin: 10px;
+}
+.img-five {
+  margin: 10px;
+}
+.img-six {
+  margin: 10px;
+}
+.img-seven {
+  margin: 10px;
+}
+.img-eight {
+  margin: 10px;
+}
+.container_slider_css{margin:50px auto;width:600px;height:600px;overflow:hidden;position:relative}
+.photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+img:nth-child(5){animation-delay:16s}
+img:nth-child(6){animation-delay:20s}
+img:nth-child(7){animation-delay:24s}
+img:nth-child(8){animation-delay:28s}
+min-width: 0px and (max-width:320px) {
+.container_slider_css{width:80%; 
+  height: 300px}
+}
+min-width: 321px and (max-width:480px) {
+.container_slider_css{width:80%;height: 300px}
+}
+
+
+.container{
+  width: 1040px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+.priv {
+  display: flex;
+  
+  margin: 0 auto;
+  padding: 0;
+}
+.priv1 {
+  display:flex;
+  
+}
+.priv2 {
+  display:flex;
+  margin-left: 10px;
+}
+.topbutton {
+  width:100px;
+  border:2px solid #ccc;
+  background:#f7f7f7;
+  text-align:center;
+  padding:10px;
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  cursor:pointer;
+  color:#333;
+  font-family:verdana;
+  font-size:12px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+}
+.certificate{margin:50px auto;width:600px;height:400px;overflow:hidden;position:relative}
+.photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0s}
+img:nth-child(5){animation-delay:16s}
+img:nth-child(6){animation-delay:20s}
+img:nth-child(7){animation-delay:24s}
+img:nth-child(8){animation-delay:28s}
+img:nth-child(9){animation-delay:32s}
+img:nth-child(10){animation-delay:36s}
+img:nth-child(11){animation-delay:40s}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+a  {
+  font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  
+}
